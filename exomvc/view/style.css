@@ -1,0 +1,23 @@
+
+.liens{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.enabled, .disabled{
+    padding: 0 2rem 0 2rem;
+    margin: 1rem;
+    font-size: 2rem;
+    text-decoration-line: none;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 13px lightskyblue;
+    color:lightseagreen;
+}
+.disabled{
+    pointer-events: none;
+    cursor: default;
+    border: 1px solid lightgrey;
+    box-shadow: inset 1px 1px 13px lightgrey;
+    color:grey;
+}
